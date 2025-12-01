@@ -1,2 +1,23 @@
-# deimos
-A script for Entry Point created by @​rawparmesan.
+![Deimos splash](https://i.postimg.cc/zfsnyt8s/deimos-splash.png)
+
+# Deimos v2
+
+Deimos is a script for Entry Point created by @rawparmesan with a more than 65 commands which allows you to do impossible things, troll players, simplify the missions playthrough and use the vulnerabilities of this game as much as possible.
+
+Supports low-level executors.
+
+## Deimos Discord server
+<https://discord.gg/AsWAVd5dqf>
+
+## Script
+```luau
+loadstring(game:HttpGet("https://raw.githubusercontent.com/deimos-script/deimos-v2/refs/heads/main/compiled.luau"))()
+```
+
+## Build
+DarkLua is used to develop Deimos. More info about DarkLua: <https://https://darklua.com/>
+
+To compile all modules into a single file, run this command from the project's root directory:
+```powershell
+./darklua.exe process ./source/main/core.luau compiled.luau
+```
