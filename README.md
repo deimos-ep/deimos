@@ -11,7 +11,7 @@ Supports low-level executors.
 
 ## Script
 ```luau
-loadstring(game:HttpGet("https://raw.githubusercontent.com/deimos-script/deimos-v2/refs/heads/main/compiled.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/deimos-ep/deimos/refs/heads/main/compiled.luau"))()
 ```
 
 ## Build
