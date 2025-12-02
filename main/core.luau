@@ -78,8 +78,9 @@ task.spawn(startup.Render)
 gui_util.ScaleElements()
 gui_util.gui_holder:GetPropertyChangedSignal("AbsoluteSize"):Connect(gui_util.ScaleElements)
 
-queueonteleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/deimos-script/deimos-v2/refs/heads/main/compiled.luau"))()]])
+queueonteleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/deimos-ep/deimos/refs/heads/main/compiled.luau"))()]])
 
 local end_time = tools.RoundNumber(tick() - start_time, 4)
 
 print("Deimos v2.0.0 successfully loaded in ~"..tostring(end_time).."s ("..tostring(tools.RoundNumber(end_time * 1000)).."ms)")
+
