@@ -2,7 +2,7 @@
 
 # Deimos v2
 
-Deimos is a script for Entry Point created by @rawparmesan with a more than 65 commands which allows you to do impossible things, troll players, simplify the missions playthrough and use the vulnerabilities of this game as much as possible.
+Deimos is a script for Entry Point with a more than 65 commands which allows you to do impossible things, troll players, simplify the missions playthrough and use the vulnerabilities of this game as much as possible.
 
 Supports low-level executors.
 
@@ -26,4 +26,4 @@ To compile all modules into a single file, run this command from the project's r
 The script is developed in VS Code with the [Luau language server](https://marketplace.visualstudio.com/items?itemName=JohnnyMorganz.luau-lsp) extension.
 
 ## Support
-For more info and support you can ask questions on the [Deimos Discord Server](https://discord.gg/AsWAVd5dqf) or to the @rawparmesan in Discord.
+For more info and support you can ask questions on the [Deimos Discord Server](https://discord.gg/AsWAVd5dqf).
